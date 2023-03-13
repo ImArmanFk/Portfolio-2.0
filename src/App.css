@@ -1,0 +1,44 @@
+html, body, #root, .App {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 64rem;
+  padding: 6rem 12rem 0px 12rem;
+}
+
+.flex-container {
+	display: flex;
+	gap: 120px;
+}
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+#profile-picture {
+  width: 420px;
+  border-radius: 30% 70% 55% 45%/32% 34% 66% 68%;
+  position: relative;
+  top: 80px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  animation: float 3s ease-in-out infinite;
+}

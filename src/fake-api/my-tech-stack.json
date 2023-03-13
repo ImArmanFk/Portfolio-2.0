@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Frontend",
+        "techList": [
+            "React",
+            "Redux",
+            "Javascript",
+            "CSS"
+        ]
+    },
+    {
+        "title": "Backend",
+        "techList": [
+            "Node.js",
+            "Express",
+            "MongDB",
+            "REST API"
+        ]
+    },
+    {
+        "title": "Devops & CI/CD",
+        "techList": [
+            "Git",
+            "Github",
+            "Netlify"
+        ]
+    },
+    {
+        "title": "Cloud",
+        "techList": [
+            "AWS",
+            "GCP"
+        ]
+    }
+]

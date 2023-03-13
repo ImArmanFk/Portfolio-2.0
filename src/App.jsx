@@ -14,7 +14,7 @@ function App() {
       <section className="container">
         <div className="flex-container">
           <div>
-            <h1>Arman Fk</h1>
+            <h1>Arman Fk Mr Hacker man</h1>
             {techStackHTML}
           </div>
           <div>

@@ -18,6 +18,25 @@ section {
 	gap: 120px;
 }
 
+.project-card {
+	display: flex;
+	gap: 60px;
+}
+
+.project-card img {
+	max-width: 400px;
+	
+}
+
+.flex-container-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.project-card:nth-child(even){
+	flex-direction: row-reverse;
+}
+
 
 @keyframes float {
 	0% {
@@ -39,6 +58,9 @@ section {
   border-radius: 30% 70% 55% 45%/32% 34% 66% 68%;
   position: relative;
   top: 80px;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  animation: float 3s ease-in-out infinite;
+}
+
+.float {
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	animation: float 3s ease-in-out infinite;
 }

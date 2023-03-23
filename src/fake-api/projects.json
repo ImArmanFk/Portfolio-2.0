@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Frontend",
+        "desc": "txt"
+    },
+    {
+        "title": "Backend",
+        "desc":"txt"
+    },
+    {
+        "title": "Devops & CI/CD",
+        "desc": "txt"
+    },
+    {
+        "title": "Cloud",
+        "desc": "txt"
+    }
+]
